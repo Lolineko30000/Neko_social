@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title> Login y Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor_todo">
+            <!--Contenedores de login y registro-->
+            <div class="caja_trasera">
+                <div class="caja_trasera-login">
+                    <h3></h3>
+                    <p></p>
+                    
+                </div>
+                <div class="caja_trasera-register">
+                    <h3></h3>
+                    <p></p>
+                    
+                </div>
+            </div>
+            <!--- Formulario de inicio de sesion  y registro-->
+            <div class="contenedor_login-register">
+                <form action="login.php" method="post" class="formulario_login">
+                    <h2>Recueperar Contraseña</h2>
+                    <input type="text" name="username" value="" placeholder="Usuario">
+                    <input type="password" name="password" value="" placeholder="Contraseña">
+                    <input type="submit" name="login" value="Iniciar sesion" class="btn btn-primary">
+                    
+                </form>
+                
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
